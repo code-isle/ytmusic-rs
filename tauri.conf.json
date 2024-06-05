@@ -1,0 +1,54 @@
+{
+    "build": {
+      "beforeDevCommand": "",
+      "beforeBuildCommand": "",
+      "devPath": "./src",
+      "distDir": "./src",
+      "withGlobalTauri": true
+    },
+    "package": {
+      "productName": "ytmusic-rs",
+      "version": "0.1.0"
+    },
+    "tauri": {
+      "allowlist": {
+        "all": false,
+        "shell": {
+          "all": false,
+          "open": true
+        },
+        "notification": {
+            "all": true
+        }
+      },
+      "bundle": {
+        "active": true,
+        "category": "DeveloperTool",
+        "copyright": "",
+
+        "externalBin": [],
+        "icon": ["icons/icon.png"],
+        "identifier": "com.ytmusic.desktop",
+        "longDescription": "",
+
+        "resources": [],
+        "shortDescription": "",
+        "targets": "all",
+        "windows": {
+          "certificateThumbprint": null,
+          "digestAlgorithm": "sha256",
+          "timestampUrl": "",
+          "webviewInstallMode": {
+            "type": "offlineInstaller"
+          }
+        }
+      },
+      "security": {
+        "csp": null
+      },
+      "updater": {
+        "active": false
+      }
+    }
+  }
+  
